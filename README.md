@@ -4,11 +4,11 @@ Link to the Presentation:
 https://github.com/Araf192/Drug-Review_NLP/blob/c685690c7954813c554fd587bbb607841e8f21d0/Patient's%20Condition%20Prediction%20based%20on%20Drug%20Review%20-Final.pdf
 
 ## Repository Structure
-Drug-Review_NLP
--- Capstone Project Proposal Template.pdf \
--- Deloitte_AI_Academy_ML_DrugReview.ipynb \
--- Patient's Condition Prediction based on Drug Review -Final.pdf \
--- README.md
+Drug-Review_NLP \
+-- Capstone Project Proposal Template.pdf --> (Project Proposal) \
+-- Deloitte_AI_Academy_ML_DrugReview.ipynb --> (Notebook containing all the code) \
+-- Patient's Condition Prediction based on Drug Review -Final.pdf --> (Final Presentation) \
+-- README.md (Read Me file containing the summary of the project and how to navigate the repository)
 
 ## Overview
 This is the capstone project for AI Academy. The goal of this project is to predict patient's condition based on the drug review.
