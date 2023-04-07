@@ -37,5 +37,39 @@ Levonorgestrel is the top rated drugs with highest number of rating.
 The top 5 conditions have been kept only for data pre-processing and modeling purpose. The "review" column has been pre-processed. Stopwords have been removed. Lemmatization have been used as well.Bag of Words Model have been created to vectorize the input features. Most of the Machine Learning models can not work with raw text, texts need to be converted into numbers to use ML models.
 
 ## Modeling
-# Logistic Regression
+### Logistic Regression
+#### This is the baseline model.
+Accuracy: 94%
+Recall: 0.91
+Precision: 0.92
+F1-Score: 0.94
+ROC-AUC Score: 0.99
 
+![image](https://user-images.githubusercontent.com/115564942/230516149-ab9016aa-d969-46c8-9cef-08121ea4f577.png)
+
+### Naive Bayes Classifier
+Accuracy: 92%
+Recall: 0.88
+Precision: 0.90
+F1-Score: 0.89
+ROC-AUC Score: 0.98
+
+![image](https://user-images.githubusercontent.com/115564942/230516179-aace6004-7185-496b-957f-3d7e819f25c2.png)
+
+### XGBoost
+Accuracy: 93%
+Recall: 0.89
+Precision: 0.91
+F1-Score: 0.90
+ROC-AUC Score: 0.98
+
+![image](https://user-images.githubusercontent.com/115564942/230516200-06ef19cb-2416-4c2a-9095-2996af064a44.png)
+
+## Model Evaluation
+For multi-class classification problem, Accuracy is the best metric. In terms of Accuracy, Logistic Regression > XGBoost > Naive Bayes Classifier
+Based on the Accuracy metric, Logistic Regression is the best model to predict patient's condition based on drug review. 
+
+## Next Steps
+1. TF-IDF,  Word2vec, GloVe \
+2. Few Shot Learning techniques (FastText, SetFit, etc.) \
+3. Zero Shot Learning techniques
