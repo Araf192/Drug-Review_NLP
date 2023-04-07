@@ -1,4 +1,4 @@
-# Drug-Review_NLP
+# Patient's Condition Prediction based on Drug Review
 
 ## Overview
 This is the capstone project for AI Academy. The goal of this project is to predict patient's condition based on the drug review.
