@@ -24,11 +24,18 @@ This dataset contains 215063 rows and 7 columns. \
 Target feature: condition
 
 ## Data Cleaning
-"condition" feature has 0.5% missing values.All missing values of "condition" feature have been removed. 
+"condition" feature has 0.5% missing values. All missing values of "condition" feature have been removed. 
 
 ## Exploratory Data Analysis
-![image](https://user-images.githubusercontent.com/115564942/230515357-22b7eceb-822a-4b87-ac51-8991b1c716e3.png)
+![image](https://user-images.githubusercontent.com/115564942/230515357-22b7eceb-822a-4b87-ac51-8991b1c716e3.png) \
 "Birth Control" is the most common condition.
 
-![image](https://user-images.githubusercontent.com/115564942/230515384-bf2e27e1-ad7a-463e-8488-4eb8c064f45e.png)
+![image](https://user-images.githubusercontent.com/115564942/230515384-bf2e27e1-ad7a-463e-8488-4eb8c064f45e.png) \
 Levonorgestrel is the top rated drugs with highest number of rating.
+
+## Data Pre-processing
+The top 5 conditions have been kept only for data pre-processing and modeling purpose. The "review" column has been pre-processed. Stopwords have been removed. Lemmatization have been used as well.Bag of Words Model have been created to vectorize the input features. Most of the Machine Learning models can not work with raw text, texts need to be converted into numbers to use ML models.
+
+## Modeling
+# Logistic Regression
+
