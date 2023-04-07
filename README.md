@@ -76,7 +76,7 @@ ROC-AUC Score: 0.98
 ![image](https://user-images.githubusercontent.com/115564942/230516200-06ef19cb-2416-4c2a-9095-2996af064a44.png)
 
 ## Model Evaluation
-For multi-class classification problem, Accuracy is the best metric. In terms of Accuracy, Logistic Regression > XGBoost > Naive Bayes Classifier
+For multi-class classification problem, Accuracy is the best metric. In terms of Accuracy, Logistic Regression > XGBoost > Naive Bayes Classifier. \
 Based on the Accuracy metric, Logistic Regression is the best model to predict patient's condition based on drug review. 
 
 ## Next Steps
